@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4e5c94dfa9d92b14e7c969be4a44cc77 {
+                #map_b836163d37332037d49245aae299c031 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,14 +38,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_4e5c94dfa9d92b14e7c969be4a44cc77" ></div>
+            <div class="folium-map" id="map_b836163d37332037d49245aae299c031" ></div>
         
 </body>
 <script>
     
     
-            var map_4e5c94dfa9d92b14e7c969be4a44cc77 = L.map(
-                "map_4e5c94dfa9d92b14e7c969be4a44cc77",
+            var map_b836163d37332037d49245aae299c031 = L.map(
+                "map_b836163d37332037d49245aae299c031",
                 {
                     center: [-3.149273, -60.040787],
                     crs: L.CRS.EPSG3857,
@@ -59,40 +59,145 @@
 
         
     
-            var tile_layer_cd0482464983062599d8df9a6c0099b6 = L.tileLayer(
+            var tile_layer_852a988e2a1044938167aa7718a1997a = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_4e5c94dfa9d92b14e7c969be4a44cc77);
+            ).addTo(map_b836163d37332037d49245aae299c031);
         
     
-            var marker_1b1926b77bf60ed935606dc33fe533b1 = L.marker(
+            var marker_8d32810b3b311a3af94839f071f38cbd = L.marker(
                 [-3.149273, -60.040787],
                 {}
-            ).addTo(map_4e5c94dfa9d92b14e7c969be4a44cc77);
+            ).addTo(map_b836163d37332037d49245aae299c031);
         
     
-            var icon_39cdfde6ba71ab084d291025982f8bb1 = L.AwesomeMarkers.icon(
+            var icon_805445fd13b36302eb308643c2d2a657 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "red", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_1b1926b77bf60ed935606dc33fe533b1.setIcon(icon_39cdfde6ba71ab084d291025982f8bb1);
+            marker_8d32810b3b311a3af94839f071f38cbd.setIcon(icon_805445fd13b36302eb308643c2d2a657);
         
     
-        var popup_3edffe8549773636f6d8eeecd93df144 = L.popup({"maxWidth": "100%"});
+        var popup_5a3a852d07ce889d759bd659ac72e960 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_b8807dd3c884151ae176f3fcb3e945b0 = $(`<div id="html_b8807dd3c884151ae176f3fcb3e945b0" style="width: 100.0%; height: 100.0%;"> <i> Cidade de Manaus   Amazonas <i\></div>`)[0];
-                popup_3edffe8549773636f6d8eeecd93df144.setContent(html_b8807dd3c884151ae176f3fcb3e945b0);
+                var html_3ba2749d15c85114a8a39891c825ecf4 = $(`<div id="html_3ba2749d15c85114a8a39891c825ecf4" style="width: 100.0%; height: 100.0%;"> <i> Cidade de Manaus\AM <i\></div>`)[0];
+                popup_5a3a852d07ce889d759bd659ac72e960.setContent(html_3ba2749d15c85114a8a39891c825ecf4);
             
         
 
-        marker_1b1926b77bf60ed935606dc33fe533b1.bindPopup(popup_3edffe8549773636f6d8eeecd93df144)
+        marker_8d32810b3b311a3af94839f071f38cbd.bindPopup(popup_5a3a852d07ce889d759bd659ac72e960)
         ;
 
         
     
     
-            marker_1b1926b77bf60ed935606dc33fe533b1.bindTooltip(
+            marker_8d32810b3b311a3af94839f071f38cbd.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc98b56dd8a2879157c1eb57954468df = L.marker(
+                [-1.18221, -62.828748],
+                {}
+            ).addTo(map_b836163d37332037d49245aae299c031);
+        
+    
+            var icon_1ab89b8b72f5be66a4b85976ccd301ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-circle", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc98b56dd8a2879157c1eb57954468df.setIcon(icon_1ab89b8b72f5be66a4b85976ccd301ea);
+        
+    
+        var popup_a30dae61e896dd2a98f507e57d5a4955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8853bbd0a3994537410fee39b468116 = $(`<div id="html_a8853bbd0a3994537410fee39b468116" style="width: 100.0%; height: 100.0%;"> <i> Cidade de Barcelos/AM <i\></div>`)[0];
+                popup_a30dae61e896dd2a98f507e57d5a4955.setContent(html_a8853bbd0a3994537410fee39b468116);
+            
+        
+
+        marker_cc98b56dd8a2879157c1eb57954468df.bindPopup(popup_a30dae61e896dd2a98f507e57d5a4955)
+        ;
+
+        
+    
+    
+            marker_cc98b56dd8a2879157c1eb57954468df.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d67505cca44c139c041d8163cd89555 = L.marker(
+                [-7.302706, -63.142652],
+                {}
+            ).addTo(map_b836163d37332037d49245aae299c031);
+        
+    
+            var icon_922bf59badcd83f98de359d2f8aa2578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "green", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0d67505cca44c139c041d8163cd89555.setIcon(icon_922bf59badcd83f98de359d2f8aa2578);
+        
+    
+        var popup_e1d5775f729636d6e7c4f5768f1f3bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8761b3f133d51f5a961071ee3166a85 = $(`<div id="html_a8761b3f133d51f5a961071ee3166a85" style="width: 100.0%; height: 100.0%;"> <i> Cidade de Humaitá/AM <i\></div>`)[0];
+                popup_e1d5775f729636d6e7c4f5768f1f3bf4.setContent(html_a8761b3f133d51f5a961071ee3166a85);
+            
+        
+
+        marker_0d67505cca44c139c041d8163cd89555.bindPopup(popup_e1d5775f729636d6e7c4f5768f1f3bf4)
+        ;
+
+        
+    
+    
+            marker_0d67505cca44c139c041d8163cd89555.bindTooltip(
+                `<div>
+                     Clique aqui!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5e595234b216dd48360ce72960a2993 = L.marker(
+                [-2.75425, -66.775091],
+                {}
+            ).addTo(map_b836163d37332037d49245aae299c031);
+        
+    
+            var icon_2ad0e06303392db01a7172f288e1dced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-circle", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_d5e595234b216dd48360ce72960a2993.setIcon(icon_2ad0e06303392db01a7172f288e1dced);
+        
+    
+        var popup_cff95fa623b79af5ca61e41f82f19968 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_437ab37af9a2ea4f0461b91fcc75dcd3 = $(`<div id="html_437ab37af9a2ea4f0461b91fcc75dcd3" style="width: 100.0%; height: 100.0%;"> <i> Cidade de Jutaí/AM <i\></div>`)[0];
+                popup_cff95fa623b79af5ca61e41f82f19968.setContent(html_437ab37af9a2ea4f0461b91fcc75dcd3);
+            
+        
+
+        marker_d5e595234b216dd48360ce72960a2993.bindPopup(popup_cff95fa623b79af5ca61e41f82f19968)
+        ;
+
+        
+    
+    
+            marker_d5e595234b216dd48360ce72960a2993.bindTooltip(
                 `<div>
                      Clique aqui!
                  </div>`,
